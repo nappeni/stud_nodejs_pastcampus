@@ -1,0 +1,17 @@
+{
+    "configurations":[
+        {
+            "name":"Lunch via NPM",
+            "request":"launch",
+            "runtimeArgs":[
+                "run-script",
+                "debug"
+            ],
+            "runtimeExcutable":"npm",
+            "skipFiles":[
+                "<node_internals>/**"
+            ],
+            "type":"pwa-node"
+        }
+    ]
+}
